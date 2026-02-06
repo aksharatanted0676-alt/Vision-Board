@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="vision.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+    <h1 class="year">🎉 Welcome 2026 🎉</h1>
+    <p class="msg">A New Year, A New Beginning ✨</p>
+
+    <button class="btn" onclick="showVision(); playMusic();">
+        Explore 2026
+    </button>
+</div>
+
+<div class="floating">🌟</div>
+<div class="floating2">🎆</div>
+
+<!-- Vision Board Popup -->
+<div id="visionBoard" class="vision-board">
+    <div class="vision-content">
+        <h2>🌟 My Vision Board 2026 🌟</h2>
+
+        <!-- Music Button BELOW heading -->
+        <button class="music-btn" onclick="playMusic()">🎵 Play Music</button>
+
+        <div class="vision-grid">
+            <div class="vision-card"><img src="pic1.jpg"></div>
+            <div class="vision-card"><img src="pic2.jpg"></div>
+            <div class="vision-card"><img src="pic3.jpg"></div>
+            <div class="vision-card"><img src="pic4.jpg"></div>
+            <div class="vision-card"><img src="pic5.jpg"></div>
+            <div class="vision-card"><img src="pic6.jpg"></div>
+            <div class="vision-card"><img src="pic7.jpg"></div>
+            <div class="vision-card"><img src="pic8.jpg"></div>
+            <div class="vision-card"><img src="pic9.jpg"></div>
+            <div class="vision-card"><img src="pic10.jpg"></div>
+        </div>
+
+        <button onclick="closeVision()">Close</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
